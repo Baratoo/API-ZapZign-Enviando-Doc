@@ -55,8 +55,6 @@ begin
       Base64Stream.Free;
     end;
 
-    ObjDoc.AddPair('base64_pdf', '');
-
     ArraySigner := TJSONArray.Create;
 
     ObjSigner := TJSONObject.Create;

@@ -9,8 +9,8 @@
     <Transaction>2023/12/07 10:08:04.000.285,=C:\Users\Win7\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
     <Transaction>2024/04/02 17:07:52.000.644,=C:\Users\Win7\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
     <Transaction>2025/01/14 14:49:04.000.340,=C:\Users\Win7\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2025/01/14 14:49:36.000.278,C:\Users\Win7\Documents\Embarcadero\Studio\Projects\Unit2.dfm=E:\KaiqueBarato\ZapSignApiTeste\Teste.dfm</Transaction>
-    <Transaction>2025/01/14 14:49:36.000.278,C:\Users\Win7\Documents\Embarcadero\Studio\Projects\Unit2.pas=E:\KaiqueBarato\ZapSignApiTeste\Teste.pas</Transaction>
-    <Transaction>2025/01/14 14:49:50.000.568,C:\Users\Win7\Documents\Embarcadero\Studio\Projects\Project2.dproj=E:\KaiqueBarato\ZapSignApiTeste\ProjTeste.dproj</Transaction>
+    <Transaction>2025/01/14 14:49:36.000.278,E:\KaiqueBarato\ZapSignApiTeste\Teste.pas=C:\Users\Win7\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/01/14 14:49:36.000.278,E:\KaiqueBarato\ZapSignApiTeste\Teste.dfm=C:\Users\Win7\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2025/01/14 14:49:50.000.568,E:\KaiqueBarato\ZapSignApiTeste\ProjTeste.dproj=C:\Users\Win7\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
   </Transactions>
 </BorlandProject>

@@ -62,7 +62,7 @@ begin
     ObjSigner.AddPair('email', 'kaique_luiz1@hotmail.com');
     ObjSigner.AddPair('phone_country', '55');
     ObjSigner.AddPair('phone_number', '44999249953');
-    // Opcional caso queira impedir alteração
+    // Opcional caso queira impedir alteraÃ§Ã£o
     ObjSigner.AddPair('lock_name', TJSONTrue.Create);
     ObjSigner.AddPair('lock_email', TJSONTrue.Create);
     ObjSigner.AddPair('lock_phone', TJSONTrue.Create);
@@ -74,13 +74,11 @@ begin
 
     RESTClient := TRESTClient.Create(nil);
     try
-      RESTClient.BaseURL := 'https://sandbox.api.zapsign.com.br/api/v1/docs/?api_token=dc0599bd-53e5-46c7-83db-64c381a50c3eabe53253-3e42-42ae-8a4c-e51becc971fb';
-      //RESTClient.BaseURL := 'https://api.zapsign.com.br/api/v1/docs/';
+      RESTClient.BaseURL := 'https://sandbox.api.zapsign.com.br/api/v1/docs/?api_token=..token..';
       Req := TRESTRequest.Create(nil);
       try
         Req.Client := RESTClient;
         Req.Method := rmPOST;
-        //Req.Params.AddItem('Authorization', 'Bearer dc0599bd-53e5-46c7-83db-64c381a50c3eabe53253-3e42-42ae-8a4c-e51becc971fb', pkHTTPHEADER);
         Req.AddBody(json, ContentTypeFromString('application/json'));
         Req.Execute;
         ShowMessage(Req.Response.Content);
